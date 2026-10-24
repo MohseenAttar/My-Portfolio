@@ -32,8 +32,8 @@ export default function ProjectExplorer({ projects }) {
   };
 
   return (
-    <div className="grid gap-6 lg:grid-cols-12 lg:gap-8">
-      <div className="lg:col-span-4">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-12 lg:gap-8">
+      <div className="min-w-0 lg:col-span-4">
         <div
           role="tablist"
           aria-label="Projects"
@@ -85,7 +85,7 @@ export default function ProjectExplorer({ projects }) {
         role="tabpanel"
         id={`project-panel-${activeProject.id}`}
         aria-labelledby={`project-tab-${activeProject.id}`}
-        className="fade-in lg:col-span-8"
+        className="fade-in min-w-0 lg:col-span-8"
       >
         <ProjectDetail project={activeProject} position={activeIndex + 1} total={projects.length} />
       </div>

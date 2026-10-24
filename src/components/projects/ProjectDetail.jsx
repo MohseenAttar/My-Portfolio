@@ -27,7 +27,7 @@ export default function ProjectDetail({ project, position, total }) {
 
         <p className="mt-4 max-w-2xl text-ink-secondary">{description}</p>
 
-        <div className="mt-7 grid gap-8 border-t border-white/10 pt-7 md:grid-cols-2">
+        <div className="mt-7 grid grid-cols-1 gap-8 border-t border-white/10 pt-7 md:grid-cols-2">
           <div>
             <h4 className="text-sm font-semibold text-ink">Highlights</h4>
             <ul className="mt-4 space-y-2.5">

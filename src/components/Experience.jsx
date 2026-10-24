@@ -78,7 +78,7 @@ export default function Experience() {
 
           <div className="mt-7 border-t border-white/10 pt-6">
             <p className="text-sm font-semibold text-ink">Key contributions</p>
-            <ul className="mt-4 grid gap-3 md:grid-cols-2">
+            <ul className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
               {contributions.map((item) => (
                 <li key={item} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-secondary">
                   <CheckCircleIcon className="mt-0.5 shrink-0 text-gold" />
@@ -98,7 +98,7 @@ export default function Experience() {
           </p>
         </div>
 
-        <div className="mt-8 grid gap-6 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
           {workProjects.map((project) => (
             <ProjectCard key={project.name} project={project} />
           ))}

@@ -11,11 +11,11 @@ export default function Contact() {
           subtitle="Open to full-time roles and freelance projects. Send a message and let's talk."
         />
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-12 lg:gap-10">
-          <div className="lg:col-span-5">
+        <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
+          <div className="min-w-0 lg:col-span-5">
             <ContactInfo />
           </div>
-          <div className="lg:col-span-7">
+          <div className="min-w-0 lg:col-span-7">
             <ContactForm />
           </div>
         </div>

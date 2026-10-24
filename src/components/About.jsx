@@ -34,7 +34,7 @@ export default function About() {
         />
 
         <div className="mt-14 grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-10">
-          <div className="lg:col-span-7">
+          <div className="min-w-0 lg:col-span-7">
             <div className="space-y-4 text-lg leading-relaxed text-ink-secondary">
               <p>
                 I'm a software developer who builds complete products — from the interface someone
@@ -56,7 +56,7 @@ export default function About() {
             </blockquote>
           </div>
 
-          <div className="lg:col-span-5">
+          <div className="min-w-0 lg:col-span-5">
             <div className="glass overflow-hidden rounded-[14px]">
               <div className="divide-y divide-white/10">
                 {vitals.map(({ label, value, Icon }) => (
