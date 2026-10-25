@@ -75,10 +75,12 @@
     }
   }
 
-  @media (max-width: 640px) {
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
+  /* Small and touch screens render overlay scrollbars that ignore the
+     ::-webkit-scrollbar rules, so the standard properties are used there. */
+  @media (max-width: 640px), (hover: none), (pointer: coarse) {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #d4af37 transparent;
     }
   }
 }
