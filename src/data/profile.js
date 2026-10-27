@@ -8,7 +8,6 @@ export const PROFILE = {
   availability: 'Full-time roles & freelance projects',
   location: 'Kolhapur, Maharashtra',
   email: 'mohseenattar0007@gmail.com',
-  phone: '+91 90965 90786',
   // Replace the file via Drive's "Manage versions" so this link never changes.
   resumeUrl: 'https://drive.google.com/file/d/1okKB-PUTVG0akvo4UcEZoNx5orhQD6U0/view?usp=sharing',
   github: 'https://github.com/MohseenAttar',

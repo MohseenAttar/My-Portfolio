@@ -1,6 +1,5 @@
 import About from './components/About.jsx';
 import BackgroundGrid from './components/BackgroundGrid.jsx';
-import Contact from './components/Contact.jsx';
 import CursorSpotlight from './components/CursorSpotlight.jsx';
 import Education from './components/Education.jsx';
 import Experience from './components/Experience.jsx';
@@ -22,10 +21,9 @@ function App() {
         <Hero />
         <About />
         <Education />
+        <Skills />
         <Experience />
         <Projects />
-        <Skills />
-        <Contact />
       </main>
       <Footer />
     </>
